@@ -82,3 +82,30 @@ sbatch --exclusive -N 4 scripts/roda-expA-4n-slurm.sh
 
 Medições oficiais: A = 2304 × 960, B = 960 × 960, C = 2304 × 960, 1 a 4 nodos
 exclusivos, 1 processo MPI por nodo, média de 10 execuções.
+
+## Resultados obtidos (cluster Xeon, fila Slurm)
+
+Médias de 10 execuções por configuração, 4,247 GFLOP por execução:
+
+| nodos | A: tempo (s) | A: GFLOPS | A: acel. | B: tempo (s) | B: GFLOPS | B: acel. | B/A |
+|------:|-------------:|----------:|---------:|-------------:|----------:|---------:|----:|
+| 1 | 5,1723 | 0,821 | 1,000 | 2,4188 | 1,756 | 1,000 | 2,138× |
+| 2 | 2,8945 | 1,468 | 1,787 | 1,4068 | 3,019 | 1,719 | 2,058× |
+| 3 | 2,0232 | 2,099 | 2,556 | 1,1371 | 3,735 | 2,127 | 1,779× |
+| 4 | 1,6231 | 2,617 | 3,187 | 1,0086 | 4,211 | 2,398 | 1,609× |
+
+Versão B (ladrilhos 192×192) foi sempre mais rápida; a aceleração total é
+limitada pela comunicação na rede Gigabit (41% do tempo com 4 nodos na B).
+Evidências: `resultados/saida-exp*-job*.txt` (jobs 19338–19345) e
+`resultados/verificacao-w00.txt` (modo `-v`, resultado idêntico ao
+sequencial). Análise e gráficos: `scripts/gera-planilha.py` e
+`scripts/gera-planilha-ods.py`.
+
+## Verificação no cluster
+
+```bash
+# no w00, sem slurm
+mpirun -np 4 ./mmul 2304 960 960 -v -w 192
+# -> verifica ok: resultado paralelo identico ao sequencial
+```
+

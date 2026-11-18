@@ -3,3 +3,8 @@ src/mmul
 *.aux
 *.log
 *.out
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
