@@ -1,0 +1,9 @@
+#!/bin/bash
+# Trabalho 2 - CI1316 Programação Paralela - UFPR
+# Multiplicação de matrizes com MPI
+#
+# Autores:  Gustavo Gabriel Ripka  <GRR20203935>
+#           Arthur Barreto Godoi   <GRR20224377>
+#
+# compila o programa: gera o binário mmul ao lado deste script
+cd "$(dirname "$0")" && mpicc -O3 -Wall -Wextra -o mmul mmul.c -lm

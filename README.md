@@ -6,6 +6,8 @@
 - Gustavo Gabriel Ripka — GRR20203935
 - Arthur Barreto Godoi — GRR20224377
 
+Repositório: <https://github.com/gg-gustavo/mmul-mpi-blocado>
+
 Multiplicação de matrizes de `double` com MPI, em duas versões:
 
 - **Versão A (simples):** cada processo recebe uma faixa de linhas de A

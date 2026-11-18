@@ -1,21 +1,19 @@
-/*
- * CI1316 — Programação Paralela — 2º semestre de 2026
- * Trabalho 2: Multiplicação de matrizes com MPI
- *
- * Versão A: multiplicação paralela simples (distribuição de faixas de
- *           linhas de A; cada processo guarda B inteira).
- * Versão B: multiplicação blocada com ladrilhos (tiling) w x w, laços
- *           externos ii -> kk -> jj, para reaproveitar blocos no cache.
- *
- * Uso:
- *   mmul Nla M Ncb               -> versão A (modo medição)
- *   mmul Nla M Ncb -w blockWidth -> versão B (modo medição)
- *   mmul Nla M Ncb -v [-w w]     -> modo verificador (compara com serial)
- *
- * Autores:
- *   Gustavo Gabriel Ripka  <GRR20203935>
- *   Arthur Barreto Godoi   <GRR20224377>
- */
+// Trabalho 2 - CI1316 Programação Paralela - UFPR
+// Multiplicação de matrizes com MPI - versões A (simples) e B (blocada)
+// Baseado nas ideias de algoritmos da especificação do trabalho
+//
+// Autores:  Gustavo Gabriel Ripka  <GRR20203935>
+//           Arthur Barreto Godoi   <GRR20224377>
+//
+// usage: ./mmul Nla M Ncb [-v] [-w blockWidth]
+//   -v       -> modo verificador (compara o resultado com a versão sequencial)
+//   -w <w>   -> versão B (blocada) com ladrilhos w x w; sem -w roda a versão A
+//
+// Versão A: distribui faixas de linhas de A (MPI_Scatterv), difunde B
+//           (MPI_Bcast) e reúne C no nodo 0 (MPI_Gatherv); kernel i-k-j.
+// Versão B: mesma distribuição, kernel em ladrilhos com laços ii-kk-jj e
+//           comunicação inicial não bloqueante (MPI_Ibcast + MPI_Iscatterv).
+//
 
 #include <stdio.h>
 #include <stdlib.h>
