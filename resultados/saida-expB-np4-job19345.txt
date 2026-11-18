@@ -1,0 +1,122 @@
+# exp=B np=4 w=192 job=19345 host=wz12 data=Wed Nov 18 20:17:37 UTC 2026
+### execucao 1
+Rank 0 de 4 rodando em wz12
+Rank 2 de 4 rodando em wz16
+Rank 3 de 4 rodando em wz17
+Rank 1 de 4 rodando em wz15
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.006151 s
+Tempo de computacao:0.599776 s
+Tempo de comunicacao: 0.406376 s
+VAZAO: 4.221 GFLOPS
+### execucao 2
+Rank 0 de 4 rodando em wz12
+Rank 3 de 4 rodando em wz17
+Rank 2 de 4 rodando em wz16
+Rank 1 de 4 rodando em wz15
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.009826 s
+Tempo de computacao:0.599480 s
+Tempo de comunicacao: 0.410346 s
+VAZAO: 4.205 GFLOPS
+### execucao 3
+Rank 0 de 4 rodando em wz12
+Rank 1 de 4 rodando em wz15
+Rank 3 de 4 rodando em wz17
+Rank 2 de 4 rodando em wz16
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.006806 s
+Tempo de computacao:0.593096 s
+Tempo de comunicacao: 0.413710 s
+VAZAO: 4.218 GFLOPS
+### execucao 4
+Rank 0 de 4 rodando em wz12
+Rank 2 de 4 rodando em wz16
+Rank 3 de 4 rodando em wz17
+Rank 1 de 4 rodando em wz15
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.017913 s
+Tempo de computacao:0.599775 s
+Tempo de comunicacao: 0.418138 s
+VAZAO: 4.172 GFLOPS
+### execucao 5
+Rank 0 de 4 rodando em wz12
+Rank 2 de 4 rodando em wz16
+Rank 3 de 4 rodando em wz17
+Rank 1 de 4 rodando em wz15
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.009263 s
+Tempo de computacao:0.597383 s
+Tempo de comunicacao: 0.411880 s
+VAZAO: 4.208 GFLOPS
+### execucao 6
+Rank 0 de 4 rodando em wz12
+Rank 2 de 4 rodando em wz16
+Rank 3 de 4 rodando em wz17
+Rank 1 de 4 rodando em wz15
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.006570 s
+Tempo de computacao:0.598325 s
+Tempo de comunicacao: 0.408245 s
+VAZAO: 4.219 GFLOPS
+### execucao 7
+Rank 0 de 4 rodando em wz12
+Rank 3 de 4 rodando em wz17
+Rank 2 de 4 rodando em wz16
+Rank 1 de 4 rodando em wz15
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.005780 s
+Tempo de computacao:0.598374 s
+Tempo de comunicacao: 0.407406 s
+VAZAO: 4.222 GFLOPS
+### execucao 8
+Rank 0 de 4 rodando em wz12
+Rank 1 de 4 rodando em wz15
+Rank 2 de 4 rodando em wz16
+Rank 3 de 4 rodando em wz17
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.004021 s
+Tempo de computacao:0.599337 s
+Tempo de comunicacao: 0.404684 s
+VAZAO: 4.230 GFLOPS
+### execucao 9
+Rank 0 de 4 rodando em wz12
+Rank 3 de 4 rodando em wz17
+Rank 2 de 4 rodando em wz16
+Rank 1 de 4 rodando em wz15
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.014041 s
+Tempo de computacao:0.599126 s
+Tempo de comunicacao: 0.414914 s
+VAZAO: 4.188 GFLOPS
+### execucao 10
+Rank 0 de 4 rodando em wz12
+Rank 3 de 4 rodando em wz17
+Rank 1 de 4 rodando em wz15
+Rank 2 de 4 rodando em wz16
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        1.005828 s
+Tempo de computacao:0.592524 s
+Tempo de comunicacao: 0.413304 s
+VAZAO: 4.222 GFLOPS
+FIM

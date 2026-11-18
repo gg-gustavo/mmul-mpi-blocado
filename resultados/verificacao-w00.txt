@@ -1,0 +1,12 @@
+Rank 3 de 4 rodando em wz00
+Rank 0 de 4 rodando em wz00
+Rank 1 de 4 rodando em wz00
+Rank 2 de 4 rodando em wz00
+
+versao B (blocada) (4 processos MPI)
+blockWidth w = 192
+Tempo total:        0.547790 s
+Tempo de computacao:0.506089 s
+Tempo de comunicacao: 0.041700 s
+VAZAO: 7.752 GFLOPS
+verifica ok: resultado paralelo identico ao sequencial

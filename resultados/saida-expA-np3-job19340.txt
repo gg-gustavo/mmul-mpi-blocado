@@ -1,0 +1,102 @@
+# exp=A np=3 w=192 job=19340 host=wz15 data=Wed Nov 18 20:16:15 UTC 2026
+### execucao 1
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        1.999085 s
+Tempo de computacao:1.735421 s
+Tempo de comunicacao: 0.263665 s
+VAZAO: 2.124 GFLOPS
+### execucao 2
+Rank 0 de 3 rodando em wz15
+Rank 2 de 3 rodando em wz17
+Rank 1 de 3 rodando em wz16
+
+versao A (simples) (3 processos MPI)
+Tempo total:        2.047141 s
+Tempo de computacao:1.764073 s
+Tempo de comunicacao: 0.283068 s
+VAZAO: 2.074 GFLOPS
+### execucao 3
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        2.064482 s
+Tempo de computacao:1.777195 s
+Tempo de comunicacao: 0.287287 s
+VAZAO: 2.057 GFLOPS
+### execucao 4
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        2.018396 s
+Tempo de computacao:1.768662 s
+Tempo de comunicacao: 0.249735 s
+VAZAO: 2.104 GFLOPS
+### execucao 5
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        2.005201 s
+Tempo de computacao:1.726631 s
+Tempo de comunicacao: 0.278570 s
+VAZAO: 2.118 GFLOPS
+### execucao 6
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        2.009024 s
+Tempo de computacao:1.756490 s
+Tempo de comunicacao: 0.252535 s
+VAZAO: 2.114 GFLOPS
+### execucao 7
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        2.010114 s
+Tempo de computacao:1.764340 s
+Tempo de comunicacao: 0.245774 s
+VAZAO: 2.113 GFLOPS
+### execucao 8
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        2.012668 s
+Tempo de computacao:1.743707 s
+Tempo de comunicacao: 0.268961 s
+VAZAO: 2.110 GFLOPS
+### execucao 9
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        2.072007 s
+Tempo de computacao:1.817448 s
+Tempo de comunicacao: 0.254559 s
+VAZAO: 2.050 GFLOPS
+### execucao 10
+Rank 0 de 3 rodando em wz15
+Rank 1 de 3 rodando em wz16
+Rank 2 de 3 rodando em wz17
+
+versao A (simples) (3 processos MPI)
+Tempo total:        1.993882 s
+Tempo de computacao:1.748493 s
+Tempo de comunicacao: 0.245389 s
+VAZAO: 2.130 GFLOPS
+FIM

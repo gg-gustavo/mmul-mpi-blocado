@@ -1,0 +1,112 @@
+# exp=A np=4 w=192 job=19341 host=wz11 data=Wed Nov 18 20:16:52 UTC 2026
+### execucao 1
+Rank 0 de 4 rodando em wz11
+Rank 3 de 4 rodando em wz16
+Rank 2 de 4 rodando em wz15
+Rank 1 de 4 rodando em wz12
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.594356 s
+Tempo de computacao:1.286452 s
+Tempo de comunicacao: 0.307904 s
+VAZAO: 2.664 GFLOPS
+### execucao 2
+Rank 0 de 4 rodando em wz11
+Rank 2 de 4 rodando em wz15
+Rank 1 de 4 rodando em wz12
+Rank 3 de 4 rodando em wz16
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.622294 s
+Tempo de computacao:1.309734 s
+Tempo de comunicacao: 0.312560 s
+VAZAO: 2.618 GFLOPS
+### execucao 3
+Rank 0 de 4 rodando em wz11
+Rank 3 de 4 rodando em wz16
+Rank 1 de 4 rodando em wz12
+Rank 2 de 4 rodando em wz15
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.637416 s
+Tempo de computacao:1.322762 s
+Tempo de comunicacao: 0.314654 s
+VAZAO: 2.594 GFLOPS
+### execucao 4
+Rank 0 de 4 rodando em wz11
+Rank 3 de 4 rodando em wz16
+Rank 2 de 4 rodando em wz15
+Rank 1 de 4 rodando em wz12
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.642376 s
+Tempo de computacao:1.335406 s
+Tempo de comunicacao: 0.306970 s
+VAZAO: 2.586 GFLOPS
+### execucao 5
+Rank 0 de 4 rodando em wz11
+Rank 2 de 4 rodando em wz15
+Rank 3 de 4 rodando em wz16
+Rank 1 de 4 rodando em wz12
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.616609 s
+Tempo de computacao:1.304423 s
+Tempo de comunicacao: 0.312186 s
+VAZAO: 2.627 GFLOPS
+### execucao 6
+Rank 0 de 4 rodando em wz11
+Rank 3 de 4 rodando em wz16
+Rank 1 de 4 rodando em wz12
+Rank 2 de 4 rodando em wz15
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.605318 s
+Tempo de computacao:1.354987 s
+Tempo de comunicacao: 0.250331 s
+VAZAO: 2.645 GFLOPS
+### execucao 7
+Rank 0 de 4 rodando em wz11
+Rank 2 de 4 rodando em wz15
+Rank 3 de 4 rodando em wz16
+Rank 1 de 4 rodando em wz12
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.631293 s
+Tempo de computacao:1.320214 s
+Tempo de comunicacao: 0.311079 s
+VAZAO: 2.603 GFLOPS
+### execucao 8
+Rank 0 de 4 rodando em wz11
+Rank 3 de 4 rodando em wz16
+Rank 2 de 4 rodando em wz15
+Rank 1 de 4 rodando em wz12
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.610874 s
+Tempo de computacao:1.341219 s
+Tempo de comunicacao: 0.269655 s
+VAZAO: 2.636 GFLOPS
+### execucao 9
+Rank 0 de 4 rodando em wz11
+Rank 2 de 4 rodando em wz15
+Rank 3 de 4 rodando em wz16
+Rank 1 de 4 rodando em wz12
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.676750 s
+Tempo de computacao:1.364650 s
+Tempo de comunicacao: 0.312101 s
+VAZAO: 2.533 GFLOPS
+### execucao 10
+Rank 0 de 4 rodando em wz11
+Rank 3 de 4 rodando em wz16
+Rank 2 de 4 rodando em wz15
+Rank 1 de 4 rodando em wz12
+
+versao A (simples) (4 processos MPI)
+Tempo total:        1.593427 s
+Tempo de computacao:1.283196 s
+Tempo de comunicacao: 0.310231 s
+VAZAO: 2.665 GFLOPS
+FIM

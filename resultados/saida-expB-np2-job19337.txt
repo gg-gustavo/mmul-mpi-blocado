@@ -1,0 +1,102 @@
+# exp=B np=2 w=192 job=19337 host=wz10 data=Wed Nov 18 20:15:35 UTC 2026
+### execucao 1
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.433694 s
+Tempo de computacao:1.171269 s
+Tempo de comunicacao: 0.262426 s
+VAZAO: 2.962 GFLOPS
+### execucao 2
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.407353 s
+Tempo de computacao:1.173537 s
+Tempo de comunicacao: 0.233816 s
+VAZAO: 3.018 GFLOPS
+### execucao 3
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.433059 s
+Tempo de computacao:1.199246 s
+Tempo de comunicacao: 0.233812 s
+VAZAO: 2.963 GFLOPS
+### execucao 4
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.401419 s
+Tempo de computacao:1.167858 s
+Tempo de comunicacao: 0.233561 s
+VAZAO: 3.030 GFLOPS
+### execucao 5
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.402398 s
+Tempo de computacao:1.174038 s
+Tempo de comunicacao: 0.228360 s
+VAZAO: 3.028 GFLOPS
+### execucao 6
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.404348 s
+Tempo de computacao:1.170219 s
+Tempo de comunicacao: 0.234129 s
+VAZAO: 3.024 GFLOPS
+### execucao 7
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.411704 s
+Tempo de computacao:1.177773 s
+Tempo de comunicacao: 0.233931 s
+VAZAO: 3.008 GFLOPS
+### execucao 8
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.400629 s
+Tempo de computacao:1.166950 s
+Tempo de comunicacao: 0.233679 s
+VAZAO: 3.032 GFLOPS
+### execucao 9
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.402999 s
+Tempo de computacao:1.169246 s
+Tempo de comunicacao: 0.233753 s
+VAZAO: 3.027 GFLOPS
+### execucao 10
+Rank 0 de 2 rodando em wz10
+Rank 1 de 2 rodando em wz11
+
+versao B (blocada) (2 processos MPI)
+blockWidth w = 192
+Tempo total:        1.401197 s
+Tempo de computacao:1.167120 s
+Tempo de comunicacao: 0.234077 s
+VAZAO: 3.031 GFLOPS
+FIM

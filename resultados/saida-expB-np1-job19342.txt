@@ -1,0 +1,92 @@
+# exp=B np=1 w=192 job=19342 host=wz17 data=Wed Nov 18 20:16:52 UTC 2026
+### execucao 1
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.416345 s
+Tempo de computacao:2.370314 s
+Tempo de comunicacao: 0.046032 s
+VAZAO: 1.758 GFLOPS
+### execucao 2
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.422733 s
+Tempo de computacao:2.376951 s
+Tempo de comunicacao: 0.045782 s
+VAZAO: 1.753 GFLOPS
+### execucao 3
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.416840 s
+Tempo de computacao:2.371155 s
+Tempo de comunicacao: 0.045685 s
+VAZAO: 1.757 GFLOPS
+### execucao 4
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.423669 s
+Tempo de computacao:2.376914 s
+Tempo de comunicacao: 0.046755 s
+VAZAO: 1.752 GFLOPS
+### execucao 5
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.416951 s
+Tempo de computacao:2.371188 s
+Tempo de comunicacao: 0.045763 s
+VAZAO: 1.757 GFLOPS
+### execucao 6
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.420832 s
+Tempo de computacao:2.374763 s
+Tempo de comunicacao: 0.046069 s
+VAZAO: 1.754 GFLOPS
+### execucao 7
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.415894 s
+Tempo de computacao:2.369507 s
+Tempo de comunicacao: 0.046387 s
+VAZAO: 1.758 GFLOPS
+### execucao 8
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.418443 s
+Tempo de computacao:2.372288 s
+Tempo de comunicacao: 0.046154 s
+VAZAO: 1.756 GFLOPS
+### execucao 9
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.419129 s
+Tempo de computacao:2.372958 s
+Tempo de comunicacao: 0.046171 s
+VAZAO: 1.755 GFLOPS
+### execucao 10
+Rank 0 de 1 rodando em wz17
+
+versao B (blocada) (1 processos MPI)
+blockWidth w = 192
+Tempo total:        2.417582 s
+Tempo de computacao:2.371043 s
+Tempo de comunicacao: 0.046539 s
+VAZAO: 1.757 GFLOPS
+FIM

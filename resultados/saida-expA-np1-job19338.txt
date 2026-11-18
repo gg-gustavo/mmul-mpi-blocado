@@ -1,0 +1,82 @@
+# exp=A np=1 w=192 job=19338 host=wz10 data=Wed Nov 18 20:16:15 UTC 2026
+### execucao 1
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.293374 s
+Tempo de computacao:5.247178 s
+Tempo de comunicacao: 0.046196 s
+VAZAO: 0.802 GFLOPS
+### execucao 2
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.175730 s
+Tempo de computacao:5.129142 s
+Tempo de comunicacao: 0.046588 s
+VAZAO: 0.821 GFLOPS
+### execucao 3
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.124650 s
+Tempo de computacao:5.078314 s
+Tempo de comunicacao: 0.046336 s
+VAZAO: 0.829 GFLOPS
+### execucao 4
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.167608 s
+Tempo de computacao:5.120687 s
+Tempo de comunicacao: 0.046920 s
+VAZAO: 0.822 GFLOPS
+### execucao 5
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.216372 s
+Tempo de computacao:5.170240 s
+Tempo de comunicacao: 0.046132 s
+VAZAO: 0.814 GFLOPS
+### execucao 6
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.198575 s
+Tempo de computacao:5.149993 s
+Tempo de comunicacao: 0.048582 s
+VAZAO: 0.817 GFLOPS
+### execucao 7
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.161472 s
+Tempo de computacao:5.114570 s
+Tempo de comunicacao: 0.046903 s
+VAZAO: 0.823 GFLOPS
+### execucao 8
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.196975 s
+Tempo de computacao:5.150615 s
+Tempo de comunicacao: 0.046360 s
+VAZAO: 0.817 GFLOPS
+### execucao 9
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.077530 s
+Tempo de computacao:5.030735 s
+Tempo de comunicacao: 0.046795 s
+VAZAO: 0.836 GFLOPS
+### execucao 10
+Rank 0 de 1 rodando em wz10
+
+versao A (simples) (1 processos MPI)
+Tempo total:        5.110319 s
+Tempo de computacao:5.063631 s
+Tempo de comunicacao: 0.046688 s
+VAZAO: 0.831 GFLOPS
+FIM
