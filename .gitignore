@@ -1,0 +1,5 @@
+src/mmul
+*.o
+*.aux
+*.log
+*.out
